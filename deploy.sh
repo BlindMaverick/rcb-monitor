@@ -6,7 +6,7 @@
 # ──────────────────────────────────────────────────────────────────
 set -euo pipefail
 
-APP_DIR="$HOME/RCB_Ticket_AI_Agent"
+APP_DIR="$(cd "$(dirname "$0")" && pwd)"
 SERVICE_NAME="rcb-monitor"
 
 echo "▶ [1/5] Installing system packages..."
